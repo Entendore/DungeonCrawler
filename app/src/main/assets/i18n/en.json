@@ -1,0 +1,12 @@
+{
+  "ui.play": "Play",
+  "ui.settings": "Settings",
+  "ui.quit": "Quit",
+  "combat.attack": "You strike the {enemy} for {damage} damage",
+  "combat.crit": "CRITICAL HIT!",
+  "combat.dodge": "You dodge the {enemy}'s attack!",
+  "death.message": "You have fallen. The dungeon claims another soul.",
+  "level.transition": "You descend deeper. Level {level} awaits.",
+  "rival.encounter": "{rival} blocks your path!",
+  "achievement.unlocked": "Achievement unlocked: {name}"
+}

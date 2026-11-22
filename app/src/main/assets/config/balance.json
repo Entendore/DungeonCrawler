@@ -1,0 +1,49 @@
+{
+  "version": 7,
+  "balance": {
+    "enemy_hp_multiplier": 1.0,
+    "enemy_damage_multiplier": 1.0,
+    "player_xp_multiplier": 1.0,
+    "gold_drop_multiplier": 1.0,
+    "crit_chance_base": 0.05,
+    "dodge_chance_base": 0.05,
+    "potion_heal_amount": 50,
+    "level_up_hp_bonus": 10,
+    "level_up_xp_curve": 1.5
+  },
+  "economy": {
+    "potion_base_price": 30,
+    "revive_hp_percent": 0.5,
+    "daily_reward_base_gold": 100,
+    "quest_gold_multiplier": 1.0,
+    "enemy_gold_base": 10
+  },
+  "ads": {
+    "interstitial_interval_turns": 15,
+    "rewarded_daily_cap": 20,
+    "banner_enabled": true,
+    "min_session_seconds_before_interstitial": 60
+  },
+  "features": {
+    "commander_mode": true,
+    "spells": true,
+    "pets": true,
+    "crafting": true,
+    "fog_of_war": true,
+    "rival": true,
+    "mutations": true,
+    "daily_challenges": true
+  },
+  "content": {
+    "min_level_for_bosses": 5,
+    "min_level_for_mutations": 3,
+    "max_dungeon_level": 50,
+    "starting_biome": "crypt"
+  },
+  "ai": {
+    "default_difficulty": "Normal",
+    "learning_rate": 0.1,
+    "exploration_epsilon": 0.15,
+    "pretrain_episodes": 40
+  }
+}

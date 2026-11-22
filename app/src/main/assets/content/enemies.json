@@ -1,0 +1,50 @@
+[
+  {
+    "id": "goblin",
+    "name": "Goblin",
+    "base_health": 30,
+    "base_damage": 8,
+    "behavior": "AGGRESSIVE",
+    "biomes": ["crypt", "swamp"],
+    "drops": [
+      { "item_id": "gold_small", "chance": 1.0, "min_count": 5, "max_count": 15 }
+    ],
+    "sprite": "goblin"
+  },
+  {
+    "id": "skeleton",
+    "name": "Skeleton",
+    "base_health": 40,
+    "base_damage": 10,
+    "behavior": "CAUTIOUS",
+    "biomes": ["crypt", "ancient_temple"],
+    "drops": [
+      { "item_id": "gold_medium", "chance": 0.8, "min_count": 10, "max_count": 25 }
+    ],
+    "sprite": "skeleton"
+  },
+  {
+    "id": "dark_mage",
+    "name": "Dark Mage",
+    "base_health": 35,
+    "base_damage": 15,
+    "behavior": "RANGED",
+    "biomes": ["void", "ancient_temple"],
+    "drops": [
+      { "item_id": "mana_crystal", "chance": 0.4 }
+    ],
+    "sprite": "mage"
+  },
+  {
+    "id": "orc",
+    "name": "Orc",
+    "base_health": 70,
+    "base_damage": 12,
+    "behavior": "AGGRESSIVE",
+    "biomes": ["swamp", "lava_caves"],
+    "drops": [
+      { "item_id": "gold_large", "chance": 0.9, "min_count": 20, "max_count": 40 }
+    ],
+    "sprite": "orc"
+  }
+]
